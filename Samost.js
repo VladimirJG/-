@@ -48,13 +48,13 @@ var balloons = 100
 balloons /= 4
 console.log(balloons) */
 
-console.log("Привет мир!!")
+/* console.log("Привет мир!!") */
 
 /* var myAwesomeString = "its a trap!!!"
 myAwesomeString = 36
 console.log(myAwesomeString) */
 
-var numberNine = 9
+/* var numberNine = 9
 var stringNine = "9"
 console.log(numberNine + numberNine)
 console.log(stringNine + stringNine)
@@ -72,4 +72,15 @@ console.log(java.length)
 var script = "Script"
 console.log(script.length)
 var javascript = java + script
-console.log(javascript.length)
+console.log(javascript.length) */
+
+
+var myName = "Vovan"
+console.log(myName[4])
+
+var codeWord1 = "обернись"
+var codeWord2 = "неужели"
+var codeWord3 = "огурцы"
+var codeWord4 = "липкие"
+var codeWord5 = "?!"
+console.log(codeWord1[1] + codeWord2[1] + codeWord3[1] + codeWord4[4] + codeWord5[1])
