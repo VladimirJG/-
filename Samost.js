@@ -75,7 +75,7 @@ var javascript = java + script
 console.log(javascript.length) */
 
 
-var myName = "Vovan"
+/* var myName = "Vovan"
 console.log(myName[4])
 
 var codeWord1 = "обернись"
@@ -83,4 +83,16 @@ var codeWord2 = "неужели"
 var codeWord3 = "огурцы"
 var codeWord4 = "липкие"
 var codeWord5 = "?!"
-console.log(codeWord1[1] + codeWord2[1] + codeWord3[1] + codeWord4[4] + codeWord5[1])
+console.log(codeWord1[1] + codeWord2[1] + codeWord3[1] + codeWord4[4] + codeWord5[1]) */
+
+
+var longStrong = "cамая длинная строка в нашей книге находиться на 25 листе"
+console.log(longStrong.length)
+console.log(longStrong.slice(14, 35))
+console.log(longStrong.slice(23))
+console.log(longStrong.toUpperCase())
+console.log(longStrong.toLowerCase())
+var zeroString = longStrong.slice(6, 7)
+var bigSimbol = zeroString.toLocaleUpperCase()
+var lostString = longStrong.slice(7)
+console.log(bigSimbol + lostString)
