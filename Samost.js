@@ -30,7 +30,7 @@ console.log(secondsOfMe) */
 
 /* var higfFives = 0
     ++higfFives */
-var x = 10
+/* var x = 10
 x = x + 5
 console.log(x)
 
@@ -46,4 +46,30 @@ console.log(balloons)
 
 var balloons = 100
 balloons /= 4
-console.log(balloons)
+console.log(balloons) */
+
+console.log("Привет мир!!")
+
+/* var myAwesomeString = "its a trap!!!"
+myAwesomeString = 36
+console.log(myAwesomeString) */
+
+var numberNine = 9
+var stringNine = "9"
+console.log(numberNine + numberNine)
+console.log(stringNine + stringNine)
+
+var greeting = "Привет, "
+var myName = "Vovan"
+console.log(greeting + myName)
+
+
+console.log("Супунпуппердлинная строка в которой много пробелов".length)
+
+
+var java = "Java"
+console.log(java.length)
+var script = "Script"
+console.log(script.length)
+var javascript = java + script
+console.log(javascript.length)
