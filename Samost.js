@@ -14,7 +14,16 @@ drawCats(7) */
 }
 users(5) */
 
-/* var secondInMinute = 60
+var secondInMinute = 60
 var minuteInHour = 60
 var secondsInHour = secondInMinute * minuteInHour
-console.log(secondsInHour) */
+console.log(secondsInHour)
+var hoursInDay = 24
+var secondsInDay = secondsInHour * hoursInDay
+console.log(secondsInDay)
+var daysInYear = 365
+var secondInYear = secondsInDay * daysInYear
+console.log(secondInYear)
+var age = 36
+var secondsOfMe = age * secondInYear
+console.log(secondsOfMe)
