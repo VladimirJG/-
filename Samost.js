@@ -86,7 +86,7 @@ var codeWord5 = "?!"
 console.log(codeWord1[1] + codeWord2[1] + codeWord3[1] + codeWord4[4] + codeWord5[1]) */
 
 
-var longStrong = "cамая длинная строка в нашей книге находиться на 25 листе"
+/* var longStrong = "cамая длинная строка в нашей книге находиться на 25 листе"
 console.log(longStrong.length)
 console.log(longStrong.slice(14, 35))
 console.log(longStrong.slice(23))
@@ -95,4 +95,23 @@ console.log(longStrong.toLowerCase())
 var zeroString = longStrong.slice(6, 7)
 var bigSimbol = zeroString.toLocaleUpperCase()
 var lostString = longStrong.slice(7)
-console.log(bigSimbol + lostString)
+console.log(bigSimbol + lostString) */
+
+var javascriptIsCool = true
+console.log(javascriptIsCool)
+
+var hadShower = true
+var hasBackpack = false
+console.log(hadShower && hasBackpack)
+
+var hadShower = true
+var hasBackpack = true
+console.log(hadShower && hasBackpack)
+
+var hasApple = true
+var hasOrange = false
+console.log(hasApple || hasOrange)
+
+var isWeekend = true
+var needToShowerToday = !isWeekend
+console.log(needToShowerToday)
