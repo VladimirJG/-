@@ -124,7 +124,7 @@ var hasOrange = true
 var shouldGoToSchool = !isWeekend && hadShower && (hasApple || hasOrange)
 console.log(shouldGoToSchool) */
 
-var height = 155
+/* var height = 155
 var heightRestriction = 150
 console.log(height > heightRestriction)
 
@@ -143,3 +143,31 @@ console.log(height < heightRestriction)
 var height = 120
 var heightRestriction = 120
 console.log(height <= heightRestriction)
+
+var mySecretNumber = 5
+var guess = 7
+console.log(mySecretNumber === guess)
+
+var mySecretNumber = 5
+var guess = 5
+console.log(mySecretNumber === guess) */
+
+/* var stringNumber = "5"
+var actualNumber = 5
+console.log(stringNumber == actualNumber)
+console.log(stringNumber === actualNumber) */
+
+var age = 11
+var accompined = true
+var dopusk = 12
+console.log(age >= dopusk || age && accompined)
+
+var age = 11
+var accompined = true
+var dopusk = 12
+console.log(age >= dopusk || age && !accompined)
+
+var age = 15
+var accompined = true
+var dopusk = 12
+console.log(age >= dopusk || age && !accompined)
