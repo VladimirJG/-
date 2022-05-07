@@ -97,7 +97,7 @@ var bigSimbol = zeroString.toLocaleUpperCase()
 var lostString = longStrong.slice(7)
 console.log(bigSimbol + lostString) */
 
-var javascriptIsCool = true
+/* var javascriptIsCool = true
 console.log(javascriptIsCool)
 
 var hadShower = true
@@ -114,4 +114,24 @@ console.log(hasApple || hasOrange)
 
 var isWeekend = true
 var needToShowerToday = !isWeekend
-console.log(needToShowerToday)
+console.log(needToShowerToday) */
+
+
+/* var isWeekend = false
+var hadShower = true
+var hasApple = false
+var hasOrange = true
+var shouldGoToSchool = !isWeekend && hadShower && (hasApple || hasOrange)
+console.log(shouldGoToSchool) */
+
+var height = 155
+var heightRestriction = 150
+console.log(height > heightRestriction)
+
+var height = 150
+var heightRestriction = 150
+console.log(height > heightRestriction)
+
+var height = 155
+var heightRestriction = 150
+console.log(height >= heightRestriction)
