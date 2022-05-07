@@ -135,3 +135,11 @@ console.log(height > heightRestriction)
 var height = 155
 var heightRestriction = 150
 console.log(height >= heightRestriction)
+
+var height = 155
+var heightRestriction = 120
+console.log(height < heightRestriction)
+
+var height = 120
+var heightRestriction = 120
+console.log(height <= heightRestriction)
