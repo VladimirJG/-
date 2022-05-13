@@ -157,7 +157,7 @@ var actualNumber = 5
 console.log(stringNumber == actualNumber)
 console.log(stringNumber === actualNumber) */
 
-var age = 11
+/* var age = 11
 var accompined = true
 var dopusk = 12
 console.log(age >= dopusk || age && accompined)
@@ -170,4 +170,9 @@ console.log(age >= dopusk || age && !accompined)
 var age = 15
 var accompined = true
 var dopusk = 12
-console.log(age >= dopusk || age && !accompined)
+console.log(age >= dopusk || age && !accompined) */
+
+var cup = "coffee"
+var logka = "inCup"
+var inCup = "tea"
+console.log(cup = logka)
